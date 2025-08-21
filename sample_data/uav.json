@@ -1,0 +1,27 @@
+{
+    "type": "uav",
+    "model": "AVENGER",
+    "serial": "0003",
+    "op": "REDZONE",
+    "description": "ISR UAV on Op REDZONE",
+    "position": {
+        "lat": 22.039201645438766,
+        "lon": 23.005013801083773,
+        "alt": 5004.381055560907,
+        "spd": 25.709412629583618
+    },
+    "timestamp": "2025-08-21T13:46:21.861Z",
+    "mobile": true,
+    "online": true,
+    "tampered": false,
+    "battery": 41,
+    "payload": {
+        "type": "image_fragment",
+        "id": "UOGDV1J2",
+        "format": "bmp",
+        "size_kb": 149,
+        "fragment": 8,
+        "total_fragments": 10,
+        "checksum": "e3f5ee61"
+    }
+}
