@@ -1,10 +1,11 @@
-# Challenge 2) Kit Tracker
+# Challenge 2. Kit Tracker
 
 Challenge Outline. There are dozens of sensors, cameras, beacons and other pieces
-of Operational Technology (OpTech) deployed in theatres around the world and this
-is only increasing. There is no single place where the OpTech lead can maintain
-oversight of this deployed equipment. You are required to create a software solution
-to this problem. The OpTech lead has the following user requirements for the
+of technology deployed in theatres around the world and this
+is only increasing. 
+
+You are required to create a software solution
+to this problem. The tech lead has the following user requirements for the
 solution:
 
 - Must allow the user to easily create, read, update and delete equipment
@@ -33,9 +34,7 @@ simulate a device feed, just ask when you are ready.
 
 Instructions for participants of challenge
 
-API:  kit-tracker.peacemosquitto.workers.dev
-
-Credentials to be given in person
+API and Credentials to be given in person
 
 See example_api_get.py for an example of how to GET data from the api
 
