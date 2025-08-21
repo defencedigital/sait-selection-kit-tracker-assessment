@@ -1,12 +1,37 @@
-# sait-selection-kit-tracker-assessment
+# Challenge 2) Kit Tracker
 
-The challenge is to create an 'Op Tech kit tracker'. It should show the location and status of various pieces of simulated optech kit on a nice GUI.
+Challenge Outline. There are dozens of sensors, cameras, beacons and other pieces
+of Operational Technology (OpTech) deployed in theatres around the world and this
+is only increasing. There is no single place where the OpTech lead can maintain
+oversight of this deployed equipment. You are required to create a software solution
+to this problem. The OpTech lead has the following user requirements for the
+solution:
+
+- Must allow the user to easily create, read, update and delete equipment
+entries (ideally using a GUI)
+
+- Must include all of the equipment data in the provided kit spreadsheet.
+- Must pull device data from the provided API to get updates with relevant
+sensor information such as:
+o Current GPS location
+o Battery status
+o Most recent image captured
+
+- Should have the entries overlayed on an interactive map which updates as
+new requests hit the API
+- Should update the database of equipment as requests hit the API.
+- Should allow user to interact with the equipment entry through the GUI.
+- Should actively monitor the status of networked OpTech (using pings, routine
+API calls etc) and provide an appropriate alert when connectivity is lost.
+- Should provide a more urgent notification when the tamper status changes.
+- Could allow easy viewing of live feeds (embedded) within your solution from
+cameras which are currently streaming.
+
+- If you are ready for viewing of a live feed within your solution, we have a live feed
+camera streaming RTSP which you can use and this will
+simulate a device feed, just ask when you are ready.
 
 Instructions for participants of challenge
-
-There are 27 pieces of (simulated) optech kit deployed in various locations around the world.
-
-Some devices also forward the latest copy of it's broadcasted data to an API on the LAN. You could demonstrate your solutions ability to communicate with deployed devices by querying this API.
 
 API:  kit-tracker.peacemosquitto.workers.dev
 
