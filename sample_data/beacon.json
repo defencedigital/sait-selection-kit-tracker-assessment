@@ -1,0 +1,21 @@
+{
+    "type": "beacon",
+    "model": "BE300X",
+    "serial": "X10002235",
+    "op": "REDZONE",
+    "description": "SATCOM GPS Beacon fitted into car A in Op REDZONE",
+    "position": {
+        "lat": 22.000040402914664,
+        "lon": 23.00349614865552,
+        "alt": 0.2627660024900651,
+        "spd": 3.625695391193685
+    },
+    "timestamp": "2025-08-21T13:45:40.862Z",
+    "mobile": true,
+    "online": true,
+    "tampered": false,
+    "battery": 7,
+    "payload": {
+        "type": ""
+    }
+}
