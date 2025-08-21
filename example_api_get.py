@@ -1,6 +1,6 @@
 import requests
 
-url = "kit-tracker.peacemosquitto.workers.dev"
+url = "<API-URL>"
 
 payload = {}
 headers = {
